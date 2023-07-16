@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins, sans-serif;
+}
+
+/**Header Style Start Here**/
+header {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.header-title {
+  margin-right: 200px;
+}
+
+.header-title h1 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+.header-info p {
+  margin-top: 10px;
+}
+
+/**Header Style End Here**/
+
+/**Responsive Style For Small Devices Start Here**/
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .header-title h1 {
+    margin-bottom: 36px;
+  }
+
+  .header-info p {
+    font-size: 15px;
+  }
+
+  .header-title>h1,
+  .header-info>h3 {
+    font-size: 0.9rem;
+  }
+
+}
+
+/**Responsive Style For Small Devices End Here**/
+
+/**Responsive Style For Medium Devices Start Here**/
+
+@media screen and (min-width: 576px) and (max-width: 900px) {
+  header {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .header-title h1 {
+    margin-bottom: 39px;
+  }
+}
+
+/**Responsive Style For Medium Devices End Here**/
