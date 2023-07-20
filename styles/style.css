@@ -28,6 +28,52 @@ header {
 
 /**Header Style End Here**/
 
+
+/**Profile Cart Style Start Here**/
+.profile-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.profile-card {
+  width: 238px;
+  height: 426.496px;
+  position: relative;
+}
+
+.profession {
+  position: absolute;
+  top: 50px;
+  right: -60px;
+  transform: rotate(90deg);
+}
+
+.profile-picture {
+  width: 100%;
+}
+
+.row-two {
+  margin-top: 70px;
+}
+
+/**Profile Cart Style Start Here**/
+
+/**Footer Section Starts Here**/
+
+footer{
+  margin: 20px;
+}
+footer a{
+  color: black;
+  cursor: pointer;
+}
+
+/**Footer Section Ends Here**/
+
 /**Responsive Style For Small Devices Start Here**/
 @media screen and (max-width: 576px) {
   header {
@@ -48,6 +94,26 @@ header {
     font-size: 0.9rem;
   }
 
+
+  /**Profile Section Starts Here**/
+  .profile-content {
+    grid-template-columns: repeat(2, 200px);
+  }
+
+  .row-two {
+    margin-top: 0px;
+  }
+
+  .mobile-row{
+    margin-top: 50px;
+  }
+  .profile-card {
+    width: 170px;
+    height: 257.383px;
+    position: relative;
+  }
+
+  /**Profile Section Ends Here**/
 }
 
 /**Responsive Style For Small Devices End Here**/
@@ -63,6 +129,26 @@ header {
   .header-title h1 {
     margin-bottom: 39px;
   }
+
+    /**Profile Section Starts Here**/
+    .profile-content {
+      grid-template-columns: repeat(2, 200px);
+    }
+  
+    .row-two {
+      margin-top: 0px;
+    }
+  
+    .mobile-row{
+      margin-top: 50px;
+    }
+    .profile-card {
+      width: 170px;
+      height: 257.383px;
+      position: relative;
+    }
+  
+    /**Profile Section Ends Here**/
 }
 
 /**Responsive Style For Medium Devices End Here**/
